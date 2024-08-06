@@ -16,7 +16,7 @@ export default function ContactSection() {
           <div>
             <p>Write me an e-mail at:</p>
             <h2 className="font-bigShoulder text-3xl text-primary">
-              kevin5112@gmail.com
+              kevin5112@yahoo.com
             </h2>
           </div>
           <p>
