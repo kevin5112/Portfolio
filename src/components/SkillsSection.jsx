@@ -11,7 +11,7 @@ export default function SkillsSection() {
   return (
     <>
       <section className="my-12 p-10">
-        <header className="grid grid-cols-2 px-10 pb-10">
+        <header className="grid grid-cols-1 lg:grid-cols-2 px-10 pb-10">
           <div className="flex items-center order-1">
             <h1 className="text-left font-bigShoulder text-3xl text-primary mr-10">
               Tools & Skills
@@ -20,8 +20,8 @@ export default function SkillsSection() {
           </div>
           <div className="block order-2"></div>
         </header>
-        <div className="flex flex-row flex-wrap justify-evenly">
-          <div className="flex flex-col flex-1 items-center">
+        <div className="flex flex-col lg:flex-row flex-wrap justify-evenly">
+          <div className="flex flex-col flex-1 items-center pt-5">
             <div className="text-2xl pb-7 text-primary font-bigShoulder font-semibold">
               Front-end
             </div>
@@ -66,7 +66,7 @@ export default function SkillsSection() {
               </div>
             </div>
           </div>
-          <div className="flex flex-col flex-1 items-center">
+          <div className="flex flex-col flex-1 items-center pt-5">
             <div className="text-2xl pb-7 text-primary font-bigShoulder font-semibold">
               Back-end
             </div>
@@ -103,7 +103,7 @@ export default function SkillsSection() {
               </div>
             </div>
           </div>
-          <div className="flex flex-col flex-1 items-center">
+          <div className="flex flex-col flex-1 items-center pt-5">
             <div className="text-2xl pb-7 text-primary font-bigShoulder font-semibold">
               Miscelleneous
             </div>

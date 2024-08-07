@@ -4,7 +4,7 @@ export default function AboutSection() {
   return (
     <>
       <section className="flex flex-col p-10">
-        <header className="grid grid-cols-2 pb-10">
+        <header className="grid grid-cols-1 lg:grid-cols-2">
           <div className="flex items-center order-2">
             <h1 className="text-left font-bigShoulder text-3xl text-primary mr-10">
               About
@@ -13,7 +13,7 @@ export default function AboutSection() {
           </div>
           <div className="block order-1"></div>
         </header>
-        <div className="grid grid-cols-2">
+        <div className="grid grid-cols-1 lg:grid-cols-2 pt-10">
           <div className="flex justify-center align-middle">
             <img
               className="max-h-96 rounded-[5rem] shadow-2xl"
@@ -22,7 +22,7 @@ export default function AboutSection() {
             />
           </div>
           <div className="basis-2/3">
-            <p className="text-left indent-7 font-dosis font-semibold">
+            <p className="text-left text-pretty indent-7 font-dosis font-semibold pt-5">
               Deeply invested in the life-long learning mentality, I'm a
               full-stack developer who carries a keen eye for design in an
               user-first approach. My focus is in creating responsive layouts on

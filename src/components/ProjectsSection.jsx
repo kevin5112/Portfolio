@@ -2,7 +2,7 @@ export default function ProjectsSection() {
   return (
     <>
       <section className="flex flex-col p-10">
-        <header className="grid grid-cols-2 pb-10">
+        <header className="grid grid-cols-1 lg:grid-cols-2 pb-10">
           <div className="flex items-center order-1">
             <h1 className="text-left font-bigShoulder text-3xl text-primary mr-10">
               Featured Projects
@@ -12,7 +12,7 @@ export default function ProjectsSection() {
           <div className="block order-2"></div>
         </header>
         <div>
-          <div className="grid grid-cols-project1 pb-10">
+          <div className="grid lg:grid-cols-project1 pb-10">
             <div className="flex items-center justify-center">
               <img
                 className="max-h-96 rounded-lg"
@@ -20,7 +20,7 @@ export default function ProjectsSection() {
                 alt="img1"
               />
             </div>
-            <div>
+            <div className="pt-10 lg:pt-0">
               <h className="font-bigShoulder text-3xl text-primary">
                 PokeMatch
               </h>
