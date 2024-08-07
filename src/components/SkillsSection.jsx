@@ -35,6 +35,10 @@ export default function SkillsSection() {
                   <img src="/icons/icon_next.svg" alt="nextjs" />
                   <h2 className="text-primary font-bold">NextJS</h2>
                 </div>
+                <div className="flex flex-col items-center transition hover:scale-110">
+                  <img src="/icons/icon_vite.svg" alt="nextjs" />
+                  <h2 className="text-primary font-bold">Vite</h2>
+                </div>
               </div>
               <div className="flex flex-1 justify-evenly items-end">
                 <div className="flex flex-col items-center transition hover:scale-110">
@@ -50,6 +54,10 @@ export default function SkillsSection() {
                 <div className="flex flex-col items-center transition hover:scale-110">
                   <img src="/icons/icon_html.svg" alt="html" />
                   <h2 className="text-primary font-bold">HTML</h2>
+                </div>
+                <div className="flex flex-col items-center transition hover:scale-110">
+                  <img src="/icons/icon_tailwindcss.svg" alt="tailwindcss" />
+                  <h2 className="text-primary font-bold">TailwindCSS</h2>
                 </div>
                 <div className="flex flex-col items-center transition hover:scale-110">
                   <img src="/icons/icon_css.svg" alt="css" />
