@@ -22,7 +22,7 @@ export default function AboutSection() {
             />
           </div>
           <div className="basis-2/3">
-            <p className="text-left indent-7">
+            <p className="text-left indent-7 font-dosis font-semibold">
               Deeply invested in the life-long learning mentality, I'm a
               full-stack developer who carries a keen eye for design in an
               user-first approach. My focus is in creating responsive layouts on
@@ -32,9 +32,15 @@ export default function AboutSection() {
             </p>
             <div className="py-3">
               <h3 className="text-xl text-primary font-bigShoulder">I am a</h3>
-              <h3>Full-stack Developer</h3>
-              <h3>Front-end Developer</h3>
-              <h3>Coffee nerd</h3>
+              <h3 className="font-dosis font-semibold text-slate-300">
+                Full-stack Developer
+              </h3>
+              <h3 className="font-dosis font-semibold text-slate-300">
+                Front-end Developer
+              </h3>
+              <h3 className="font-dosis font-semibold text-slate-300">
+                Coffee nerd
+              </h3>
             </div>
             <button className="hello-btn">Say Hello</button>
           </div>
