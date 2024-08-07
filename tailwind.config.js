@@ -14,6 +14,8 @@ export default {
     },
     fontFamily: {
       bigShoulder: ['Big Shoulders Stencil Text', 'Helvetica', 'sans-serif'],
+      monospace: ['Space Mono', 'Helvetica', 'sans-serif'],
+      dosis: ['Dosis', 'Helvetica', 'sans-serif'],
     },
   },
   plugins: [],
