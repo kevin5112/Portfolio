@@ -1,6 +1,11 @@
 import '../styles/AboutSection.css';
 
 export default function AboutSection() {
+  const handleOnClick = () => {
+    document.body.scrollTop = 8000;
+    document.documentElement.scrollTop = 8000;
+  };
+
   return (
     <>
       <section className="flex flex-col p-10">
@@ -42,7 +47,9 @@ export default function AboutSection() {
                 Coffee nerd
               </h3>
             </div>
-            <button className="hello-btn">Say Hello</button>
+            <button onClick={handleOnClick} className="hello-btn">
+              Say Hello
+            </button>
           </div>
         </div>
       </section>

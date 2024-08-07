@@ -63,7 +63,9 @@ export default function ProjectsSection() {
               </p>
               <div className="flex flex-row justify-evenly pt-7">
                 <button>REVIEW THE CODE</button>
-                <button>SEE IT LIVE</button>
+                <a href="https://kvchen-pokememory.netlify.app/">
+                  <button>SEE IT LIVE</button>
+                </a>
               </div>
             </div>
           </div>
