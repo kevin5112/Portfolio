@@ -38,8 +38,8 @@ export default function ProjectsSection() {
                 <div className="flex flex-row bg-[#444] rounded-[8px] items-center py-[3px] px-[6px] mr-[6px] mt-[10px]">
                   <img
                     className="max-w-[350px] w-[16px] h-[16px]"
-                    src="/icons/icon_vite.svg"
-                    alt="react"
+                    src="/icons/vite_logo.svg"
+                    alt="vite"
                   />
                   <span className="text-primary text-[12px] ml-[6px] font-bold font-monospace">
                     vite

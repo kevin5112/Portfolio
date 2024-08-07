@@ -36,7 +36,7 @@ export default function SkillsSection() {
                   <h2 className="text-primary font-bold">NextJS</h2>
                 </div>
                 <div className="flex flex-col items-center transition hover:scale-110">
-                  <img src="/icons/icon_vite.svg" alt="nextjs" />
+                  <img src="/icons/vite_logo.svg" alt="nextjs" />
                   <h2 className="text-primary font-bold">Vite</h2>
                 </div>
               </div>
