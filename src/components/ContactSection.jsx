@@ -15,9 +15,12 @@ export default function ContactSection() {
         <div className="flex flex-col justify-between h-64">
           <div>
             <p>Write me an e-mail at:</p>
-            <h2 className="font-bigShoulder text-3xl text-primary">
+            <a
+              className="font-bigShoulder text-3xl text-primary hover:text-primaryAlt"
+              href="mailto:kevin5112@yahoo.com"
+            >
               kevin5112@yahoo.com
-            </h2>
+            </a>
           </div>
           <p>
             <strong>O R</strong>
@@ -29,14 +32,14 @@ export default function ContactSection() {
                 <FontAwesomeIcon
                   icon={faGithub}
                   size="4x"
-                  className="text-primary"
+                  className="text-primary hover:text-primaryAlt"
                 />
               </a>
               <a href="https://www.linkedin.com/in/kevin-chen-084baa173/">
                 <FontAwesomeIcon
                   icon={faLinkedin}
                   size="4x"
-                  className="text-primary"
+                  className="text-primary hover:text-primaryAlt"
                 />
               </a>
             </div>

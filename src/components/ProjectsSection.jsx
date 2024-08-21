@@ -15,7 +15,7 @@ export default function ProjectsSection() {
           <div className="grid lg:grid-cols-project1 pb-10">
             <div className="flex items-center justify-center">
               <img
-                className="max-h-96 rounded-lg"
+                className="max-h-64 lg:max-h-96 rounded-lg"
                 src="/images/pokememory.png"
                 alt="img1"
               />
@@ -56,27 +56,23 @@ export default function ProjectsSection() {
                   </span>
                 </div>
               </div>
-              <p className="pt-7 font-dosis font-semibold">
+              <p className="pt-7 lg:px-0 px-10 font-dosis font-semibold text-left">
                 Game made to test your memory. Click on each unique Pokemon and
                 don't press on the same one twice! Made in React and Vite using
                 TailwindCSS for styling.
               </p>
               <div className="flex flex-row justify-evenly pt-7">
-                <button>REVIEW THE CODE</button>
+                <a href="https://github.com/kevin5112/Memory_Game">
+                  <button className="border-solid border-primary text-primary hover:bg-primary hover:text-black hover:border-primary transition ease-in-out duration-300">
+                    REVIEW THE CODE
+                  </button>
+                </a>
                 <a href="https://kvchen-pokememory.netlify.app/">
-                  <button>SEE IT LIVE</button>
+                  <button className="border-solid border-primary text-primary hover:bg-primary hover:text-black hover:border-primary transition ease-in-out duration-300">
+                    SEE IT LIVE
+                  </button>
                 </a>
               </div>
-            </div>
-          </div>
-          <div className="grid grid-cols-project2 pb-10">
-            <div>
-              <h1>project name</h1>
-              <p>description</p>
-            </div>
-            <div className="grid grid-cols-2">
-              <img src="" alt="img1" />
-              <img src="" alt="img2" />
             </div>
           </div>
         </div>

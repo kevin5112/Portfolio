@@ -2,13 +2,5 @@
   height: 4rem;
   width: 15rem;
   background-color: rgba(0, 0, 0, 0);
-  border: 3px solid beige;
-  color: beige;
   font-size: larger;
-}
-
-.hello-btn:hover {
-  background-color: beige;
-  color: black;
-  border: 3px solid beige;
 }

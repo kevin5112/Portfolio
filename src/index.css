@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  --black: #1b1b1b1b;
+  --black: #1b1b1b;
   --true-black: #000;
   --grey: #999;
   --white: #fff;
@@ -13,9 +13,10 @@
   line-height: 1.5;
   font-weight: 400;
   font-size: 18px;
+  scroll-behavior: smooth;
 
   color: var(--grey);
-  background-color: #242424;
+  background-color: var(--black);
 
   margin: 0;
   padding: 0;

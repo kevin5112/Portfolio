@@ -5,6 +5,7 @@ export default {
     extend: {
       colors: {
         primary: '#f8efd4',
+        primaryAlt: '#edd792',
       },
       gridTemplateColumns: {
         2: '1fr 1fr',
